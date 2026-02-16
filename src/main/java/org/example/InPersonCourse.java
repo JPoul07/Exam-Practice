@@ -11,6 +11,14 @@ public class InPersonCourse extends Course {
         this.roomNumber = roomNumber;
     }
 
+    public String getBuilding() {
+        return building;
+    }
+
+    public int getRoomNumber() {
+        return roomNumber;
+    }
+
     @Override
     public CourseType getCourseType() {
         return CourseType.IN_PERSON;
